@@ -19,7 +19,7 @@ namespace Data.Models
         public string Brand { get; set; }
 
         [JsonProperty("priceU")]
-        public int PriceU { get; set; }
+        public string PriceU { get; set; }
 
         [JsonProperty("feedbacks")]
         public int Feedbacks { get; set; }
